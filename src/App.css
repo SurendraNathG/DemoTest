@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: grid; 
+  grid-template-columns: repeat(2 , 1fr); 
+  grid-gap: 6px; 
+  margin: 0;
+  padding: 10px;
+}
+
+.cardWrapper {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.cardTitle{
+  text-align: center;
+}
+.Description{
+  margin-top: 10px;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+
+}
+.bottomWrapper{
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin-top: 10px;
+display: flex;
+}
+
+a:hover {
+  color: green;
+}
